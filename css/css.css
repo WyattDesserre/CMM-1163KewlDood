@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital@1&family=Sedgwick+Ave+Display&display=swap');
+
+
+body{ background-color: rgb(119, 168, 168);
+    /* background-image: linear-gradient(to right top, #221ae1, #451add, #5a1bda, #6a1ed6, #7721d3, #5d42e0, #3d58e8, #0069ed, #007ee0, #0081a7, #007c60, #217225);
+} */
+}
+
+h1,h2,h4,h5{
+    font-family: sedgwick ave display;
+}
+p{
+    font-family: josefine sans;
+    font-size: 18px;
+}
+
+#masthead{
+    background-image: url(../images/wrathEDITED.png);
+    background-size:cover;
+    background-position: center;
+    color: rgb(245, 245, 245);
+}
+#bioMain{
+    background-color: #5e5ac5;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 2%;
+
+    color: white;
+}
+
+#workStuff{
+    background-color: rgb(84, 14, 214);
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+
+footer{
+    background-color: rgb(16, 92, 20);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 145, 0);
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: right;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
