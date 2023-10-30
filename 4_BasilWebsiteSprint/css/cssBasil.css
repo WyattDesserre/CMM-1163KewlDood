@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond:ital,wght@1,500&family=Reenie+Beanie&display=swap');
+
+header {
+    text-align: center;
+    background-color: rgba(100, 156, 16, 0.63);
+    color: white;
+    font-family: Dancing Script;
+    padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to top, #6cac43, #77a137, #80962e, #858b27, #898024);
+    color: white;
+    font-family: EB Garamond;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3,
+h2 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: chartreuse;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+section {
+    width: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-image: radial-gradient(circle, #35831f, #368e20, #369820, #35a321, #34ae21);
+    padding: 0 1%;
+}
+
+#pers p {
+    font-size: 18px;
+}
+
+a {
+    color: #e4d107;
+}
+
+#imageref {
+    text-align: center;
+}
+
+section p {
+
+    font-size: 15px;
+}
+
+#about p {
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.ImgRight {
+    float: right;
+    margin-left: 5px;
+}
+
+.ImgLeft {
+    float: left;
+    margin-right: 5px;
+}
+
+h2 {
+    background-color: #6cc237;
+    width: 100%;
+}
+
+#textCreepy {
+    font-family: Reenie Beanie;
+    color: rgb(121, 11, 11);
+    font-size: 36px;
+    text-decoration: wavy;
+}
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #35831f, #368e20, #369820, #35a321, #34ae21);
+    padding: 0.5% 0;
+    align-content: center;
+}
