@@ -2,8 +2,6 @@
 
 
 body{ background-color: rgb(119, 168, 168);
-    /* background-image: linear-gradient(to right top, #221ae1, #451add, #5a1bda, #6a1ed6, #7721d3, #5d42e0, #3d58e8, #0069ed, #007ee0, #0081a7, #007c60, #217225);
-} */
 }
 
 h1,h2,h4,h5{
@@ -15,7 +13,7 @@ p{
 }
 
 #masthead{
-    background-image: url(../images/wrathEDITED.png);
+    background-image: url(../images/wrathEDITEDback.png);
     background-size:cover;
     background-position: center;
     color: rgb(245, 245, 245);
@@ -24,6 +22,7 @@ p{
     background-color: #5e5ac5;
     width: 70%;
     margin-left: 15%;
+    margin-right: 15%;
     padding-top: 2%;
 
     color: white;
@@ -33,6 +32,9 @@ p{
     background-color: rgb(84, 14, 214);
     width: 70%;
     margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    text-align: center;
 }
 
 
@@ -66,4 +68,14 @@ nav a {
     padding: 20px;
     text-decoration: none;
     color: black;
+}
+
+footer a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+footer a :hover{
+    color: orange;
+
 }
