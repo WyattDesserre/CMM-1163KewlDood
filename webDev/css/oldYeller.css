@@ -1,0 +1,27 @@
+header{
+    background-image: url(../images/backgrounds/BrownPupper.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    
+}
+
+.bg-purple{
+    background-color: rgb(138, 94, 179);
+}
+
+.navbar-brand{
+    color: aqua !important;
+}
+
+footer{
+    background-color: rgb(126, 0, 243);
+}
+
+footer a{
+    color: rgb(133, 85, 111);
+}
+
+#serviceHeader{
+    background-image: url(../images/smaller/emoCat.jpg);
+}
