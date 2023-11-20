@@ -1,0 +1,93 @@
+
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+body{
+    background-image: url(../images/Entrance.png);
+    background-size: cover;
+
+}
+
+
+header{
+    padding-top:20%;
+    padding-left: 40%;
+    padding-right: 35%;
+    background-image: url(../images/CoalhurstSign.jpg);
+    background-size: cover;
+    background-position: top;
+    color: rgb(221, 221, 46);
+    font-family: bebas+neue;
+    font-size: 300px;
+    text-align: center;
+}
+
+#index{
+    padding-left: 30%;
+}
+
+header h1,h3{
+    font-size: 50px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(10, 44, 236);
+}
+nav{
+    background-color: blue;
+    z-index: 999;
+}
+
+.navbar-brand{
+    color: yellow !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: bebas+neue;
+}
+
+p{
+    font-family: bitter;
+    font-size: 20px;
+}
+
+
+
+.pL{
+    margin-left:5%;
+}
+
+.pR{
+margin-right:2%;
+}
+
+
+.bgLight{
+    background-color: rgba(106, 106, 250, 0.829);
+    color: white;
+}
+
+.bgDark{
+    background-color: rgba(0, 0, 255, 0.747);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(233, 233, 17);
+}
+img {
+    border-radius: 15%;
+  }
+
+footer a{
+    text-decoration: none;
+    color: rgb(79, 79, 226);
+}
+
+
+footer{
+    background-color: rgba(255, 255, 0, 0.767);
+}
