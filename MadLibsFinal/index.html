@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyatt's Mad Lib Shite</title>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/Lib.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-sm-12 text-center my-5">
+                <h1>Mad Libs</h1>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-sm-9">
+                    <form action="javascript:write();">
+                        <div class="form-group">
+                            <label for="name">An Item</label>
+                            <input class="form-control" type="text" id="ite">
+                        </div>
+                        <div class="form-group">
+                            <label for="creature">Part of human, mental or physical</label>
+                            <input class="form-control" type="text" id="part">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="radioBut" value="enemy">Worst Enemy
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="radioBut" value="so">Significant Other
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="radioBut" value="mom">Mother
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="radioBut" value="dad">Father
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="creature">Activity</label>
+                            <input class="form-control" type="text" id="activity1">
+                        </div>
+                        <div class="form-group">
+                            <label for="creature">a Crime</label>
+                            <input class="form-control" type="text" id="crime">
+                        </div>
+                     <button type="submit" class="btn btn-block btn-outline-info">Let the Madness Libs begin...</button>
+
+
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form action="javascript:write();">
+                            <div class="form-group">
+                                <label for="name">A skill</label>
+                                <input class="form-control" type="text" id="skill">
+                            </div>
+                            <div class="form-group">
+                                <label for="creature">Name of a club</label>
+                                <input class="form-control" type="text" id="club">
+                            </div>
+                            <div class="form-group">
+                                <label for="creature">Adjective</label>
+                                <input class="form-control" type="text" id="adjective">
+                            </div>
+                            <div class="form-group">
+                                <label for="creature">Descriptor of a person</label>
+                                <input class="form-control" type="text" id="describe">
+                            </div>
+                            <div class="form-group">
+                                <label for="creature">Position of power</label>
+                                <input class="form-control" type="text" id="god">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div id="output" class="col-sm-12">
+                    <p>I really love my __________ (item). It helps me stay sane, it helps my ____________ (part of the human, mental or physical) become better and stronger. It truly makes my ___________ (loved one) happier. I really think that without it, I wouldn’t be able to go ___________(activity)ing, my favourite activity. This has truly changed my life, as before I had experienced it I was in a very odd place, and with its help I was able to leave and start anew, where I began to ___________(same activity as above), met my mother, and just in general became a better person thanks to it. Before, I was able to ___________ (crime) without anyone caring, but now I am the center of the show, the magnum opus, the greatest ____________ (activity from above) er of all time, the world Champion! I can destroy any competition that could possibly challenge me, I’ve done it countless times, from Jim Jimson to the Great Jimothy themself, nobody can outdo me in my field! You know, they used to call me the ___________(activity) king back in college, and for good reasons, as I was not only the Lord-Ruler of the _________(possible activity/purpose of a club) club, but I also managed to defeat a god all by my lonesome with my incredibly ____________ (descriptor) physique and unique mind. With my ____________ (adjective)powers and unwavering will, I shall conquer the world, and topple Jimothy’s cruel reign upon my world. Given time, pain shall be none other than a distant memory, and all I behold shall be thankful for my actions and praise me as their new ______________ (position of power). What do you mean “Power Trip”? I have no such superiority complex. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="Javascript/Lib.js"></script>
+</body>
+<!-- thanks for a great semester, sorry this project isn't near my best work, I'm just extremely tired and need a break. Hope you can understand. See you next semester when I'll hopefully be back in the groove. -Wyatt -->
+</html>
